@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+    <style>
+      p::first-line {
+        color: green;
+        font-variant: small-caps;
+      }
+      span::before {
+        content: "my homeland ";
+      }
+      span::after {
+        content: " your homeland";
+      }
+      .first {
+        display: inline-block;
+      }
+      .first::first-letter {
+        color: blueviolet;
+        font-size: xx-large;
+
+      }
+      .second {
+        padding: 10px;
+        margin: 10px;
+      }
+      .third {
+        display: inline-block;
+      }
+      .kop {
+        color: brown;
+      }
+      .lop {
+        color: blueviolet;
+      }
+      .jop {
+        color: blue;
+      }
+      ::marker {
+        color: violet;
+        font-size: 29px;
+      }
+      .qop {
+        color: chocolate;
+      }
+      .wop {
+        color: khaki;
+      }
+      .eop {
+        color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="third" href="https://www.w3schools.com" target="_blank"
+      >w3schools</a
+    >
+    <p class="first">
+      You can use the ::first-line pseudo-element to add a special effect to the
+      first line of a text. Some more text. And even more, and more, and more,
+      and more, and more, and more, and more, and more, and more, and more, and
+      more, and more.A
+    </p>
+    <span class="second">bangladesh</span>
+    <ul>
+      <li class="kop"> one</li>
+      <li class="lop">two</li>
+      <li class="jop">three</li>
+    </ul>
+    <ol>
+      <li class="qop">my name</li>
+      <li class="wop">your name</li>
+      <li class="eop">her name</li>
+    </ol>
+  </body>
+</html>

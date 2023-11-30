@@ -2,10 +2,46 @@
 <html>
   <head>
     <title>about bangladesh</title>
-    <style></style>
+    <style>
+      /* unvisited link */
+      a:link {
+        color: skyblue;
+      }
+      /* visited link */
+      a:visited {
+        color: red ;
+      }
+      /* mouse over link */
+      a:hover {
+        color: blue;
+        font-size: 30px;
+      }
+      /* selected link*/
+      a:active {
+        color: yellow;
+      }
+      .mine {
+        display: none;
+        background-color: green;
+        padding: 20px;
+      }
+      .also:hover .mine {
+        display: block;
+        color: aqua;
+      }
+      .she {
+        background-color: green;
+        color:black;
+        padding: 25px;
+        text-align: center;
+      }
+      .she:hover {
+        background-color: red; 
+      }
+    </style>
   </head>
   <body>
-    <h1>It's our bangladesh</h1>
+    <h1 class="she">It's our bangladesh</h1>
 
     <a href="https://www.google.com/search?q=bangladesh" target="_blank"
       >Bangladesh</a
@@ -35,7 +71,7 @@
         color: rgb(255, 0, 0);
       }
     </style>
-    <p1>Here some picture of historical places of Bangladesh</p1>
+    <div><p1>Here some picture of historical places of Bangladesh</p1></div>
 
     <div>
       <img src="dhrubo.jpg" width="500" height="300" />
@@ -43,49 +79,51 @@
       <img src="image 3.jpeg" width="500" height="300" />
     </div>
 
-    <p2>There are 8 divisions of bangladesh. These are :-</p2>
-    <ul>
-      <li>
-        <a href="https://www.google.com/search?q=dhaka" target="_blank"
-          >dhaka</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=barishal" target="_blank"
-          >Barishal</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=chattogram" target="_blank"
-          >Chattogram</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=khulna" target="_blank"
-          >Khulna</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=rajshahi" target="_blank"
-          >Rajshahi</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=Rangpur" target="_blank"
-          >Rangpur</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=Mymensingh" target="_blank"
-          >Mymensingh</a
-        >
-      </li>
-      <li>
-        <a href="https://www.google.com/search?q=Sylhet" target="_blank"
-          >Sylhet</a
-        >
-      </li>
-    </ul>
+    <div>
+      <p2>There are 8 divisions of bangladesh. These are :-</p2>
+      <ul>
+        <li>
+          <a href="https://www.google.com/search?q=dhaka" target="_blank"
+            >dhaka</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=barishal" target="_blank"
+            >Barishal</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=chattogram" target="_blank"
+            >Chattogram</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=khulna" target="_blank"
+            >Khulna</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=rajshahi" target="_blank"
+            >Rajshahi</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=Rangpur" target="_blank"
+            >Rangpur</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=Mymensingh" target="_blank"
+            >Mymensingh</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search?q=Sylhet" target="_blank"
+            >Sylhet</a
+          >
+        </li>
+      </ul>
+    </div>
     <p3
       >Politics of Bangladesh takes place in a framework of a parliamentary
       representative democratic republic, whereby the Prime Minister of
@@ -101,10 +139,10 @@
       <li>Jatiya Samajtantrik Dal</li>
       <li>Gano Forum</li>
     </ol>
-    <p4
-      >The population of Bangladesh is very high. Here some information about
-      population of Bangladesh :-</p4
-    >
+    <p>
+      The population of Bangladesh is very high. Here some information about
+      population of Bangladesh :-</p>
+    
     <table border="1">
       <thead>
         <tr>
@@ -165,5 +203,9 @@
         </tr>
       </tbody>
     </table>
+    <div class="also">
+      here a gift for you
+      <p class="mine">YOU ARE ALSO INVITED IN BANGLADESH</p>
+    </div>
   </body>
 </html>
